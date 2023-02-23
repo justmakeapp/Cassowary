@@ -1,8 +1,6 @@
-import XCTest
 @testable import SimplexTests
-@testable import CassowaryTests
+import XCTest
 
 XCTMain([
     testCase(SimplexTests.allTests),
-    testCase(CassowaryTests.allTests),
 ])
